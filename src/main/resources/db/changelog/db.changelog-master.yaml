@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: /db/migrations/V1_create-table-user.yaml
+  - include:
+      file: /db/migrations/V1.2_create-table-user.yaml

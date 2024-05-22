@@ -1,0 +1,20 @@
+bot:
+  name: dshSpringTestBot
+  token: 7195923799:AAFVLE6BkTjOX1dfhaW4tVyS1ma3d_YGrVI
+  owner: 1285033208
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+api:
+  api-key: 071edd323d46588b5f35756476df9371
+  host: https://app.rnova.org/api/public/
+
+url_cmd: https://www.cmd-online.ru/meditsi
+
+work_schedule: "classpath:file/images/workSchedule.jpg"
+
