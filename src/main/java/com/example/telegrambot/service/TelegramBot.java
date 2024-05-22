@@ -3,7 +3,7 @@ package com.example.telegrambot.service;
 import com.example.telegrambot.DataApiConnector.ApiController;
 import com.example.telegrambot.config.BotConfig;
 import com.example.telegrambot.enums.TelegramCommand;
-import com.example.telegrambot.massege.ConstantsMessage;
+import com.example.telegrambot.message.ConstantsMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ResourceUtils;

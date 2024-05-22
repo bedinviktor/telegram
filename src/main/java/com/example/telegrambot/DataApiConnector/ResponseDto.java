@@ -7,7 +7,7 @@ import java.util.List;
 
 @Setter
 @Getter
-public class Response1 {
+public class ResponseDto {
     private String error;
-    private List<ResponseData> data;
+    private List<ResponseName> data;
 }

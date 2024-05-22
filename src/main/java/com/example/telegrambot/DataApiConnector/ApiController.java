@@ -26,7 +26,7 @@ public class ApiController {
                 Response response = client.newCall(request).execute()) {
             String responseBody = response.body().string();
             ObjectMapper objectMapper = new ObjectMapper();
-            Response1 response1 = objectMapper.readValue(responseBody, Response1.class);
+            ResponseDto response1 = objectMapper.readValue(responseBody, ResponseDto.class);
 
 
         } catch (IOException e) {
