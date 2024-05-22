@@ -8,7 +8,7 @@ import lombok.Setter;
 @Setter
 @Getter
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class ResponseData {
+public class ResponseName {
     @JsonProperty("name")
     private String name;
 }

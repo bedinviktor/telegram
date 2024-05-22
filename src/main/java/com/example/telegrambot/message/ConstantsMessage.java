@@ -1,4 +1,4 @@
-package com.example.telegrambot.massege;
+package com.example.telegrambot.message;
 
 public class ConstantsMessage {
 
